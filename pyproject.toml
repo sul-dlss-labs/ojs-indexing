@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ojs-indexing"
+authors = ["Ed Summers <ehs@pobox.com>"]
+version = "0.1.0"
+description = "A notebook for analyzing coverage of OJS articles in Dimensions."
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+dimcli = "^1.3"
+python-dotenv = "^1.0.1"
+jupyterlab = "^4.2.5"
+more-itertools = "^10.4.0"
+tqdm = "^4.66.5"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-v"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
