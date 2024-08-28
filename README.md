@@ -10,7 +10,7 @@ DIMENSIONS_USER=MYUSERNAME
 DIMENSIONS_PASSWORD=MYPASSWORD
 ```
 
-Then you will want to install Poetry and:
+Then you will want to [install Poetry](https://python-poetry.org/docs/) and:
 
 ```
 $ poetry install
